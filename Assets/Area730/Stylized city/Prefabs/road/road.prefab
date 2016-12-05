@@ -10,6 +10,7 @@ GameObject:
   - 4: {fileID: 417780}
   - 33: {fileID: 3317736}
   - 23: {fileID: 2356662}
+  - 54: {fileID: 54000010479207478}
   m_Layer: 0
   m_Name: road
   m_TagString: Untagged
@@ -23,10 +24,10 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 198036}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -61.402943, y: 310.006, z: 586.34174}
-  m_LocalScale: {x: 0.7753077, y: 0.3615371, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0.39805624, y: 0.6894536, z: 0.5240742, w: 0.30257434}
+  m_LocalPosition: {x: 228.93219, y: 306.5347, z: 452.3942}
+  m_LocalScale: {x: 2.6524622, y: 0.4878535, z: 1}
+  m_LocalEulerAnglesHint: {x: -93.114, y: 2.2839966, z: 180}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -77,3 +78,18 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 198036}
   m_IsPrefabParent: 1
+--- !u!54 &54000010479207478
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 198036}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
