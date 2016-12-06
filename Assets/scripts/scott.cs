@@ -27,22 +27,25 @@ public class scott : MonoBehaviour
             Debug.Log("hit?");
 
 
-
+        }
             if (Input.GetMouseButton(0) && beamhit.rigidbody)
             {
                 Debug.Log("Has rigibody");
                 beamhit.rigidbody.AddForce((Random.insideUnitSphere) * scottstrength);
                 beamhit.collider.gameObject.GetComponent<AudioSource>().PlayOneShot(hitsound);
             }
-            if (Input.GetMouseButtonDown(1))
-            {
-                Instantiate(prefab1, beamhit.point, Quaternion.identity);
+           
 
             }
 
         }
-    }
-}
-
     
+
+
+
+
+
+
+
+
 

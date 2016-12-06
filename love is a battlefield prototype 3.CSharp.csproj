@@ -122,9 +122,15 @@
     <Compile Include="Assets\camera\Standard Assets\Utility\TimedObjectDestructor.cs" />
     <Compile Include="Assets\camera\Standard Assets\Utility\WaypointCircuit.cs" />
     <Compile Include="Assets\camera\Standard Assets\Utility\WaypointProgressTracker.cs" />
+    <Compile Include="Assets\scripts\GameManger_gameover.cs" />
+    <Compile Include="Assets\scripts\GameManger_master.cs" />
+    <Compile Include="Assets\scripts\MainMenu.cs" />
+    <Compile Include="Assets\scripts\destory.cs" />
     <Compile Include="Assets\scripts\feelsbad.cs" />
-    <Compile Include="Assets\scripts\hangry.cs" />
+    <Compile Include="Assets\scripts\follow.cs" />
+    <Compile Include="Assets\scripts\gameovertest.cs" />
     <Compile Include="Assets\scripts\scott.cs" />
+    <Compile Include="Assets\scripts\spawn.cs" />
     <Compile Include="Assets\scripts\timer.cs" />
   </ItemGroup>
   <ItemGroup>

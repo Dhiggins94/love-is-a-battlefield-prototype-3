@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/love is a battlefield prototype 3.unity
+- path: Assets/love is a battlefield part 4.unity
   isLoaded: 1
   isActive: 1
